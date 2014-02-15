@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*" >
+
+    <TableRow android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_1"
+            android:text="@string/button_1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_2"
+            android:text="@string/button_2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_3"
+            android:text="@string/button_3" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_4"
+            android:text="@string/button_4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_5"
+            android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_6"
+            android:text="@string/button_6" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent" >
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_7"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_8"
+            android:text="@string/button_8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_9"
+            android:text="@string/button_9" />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent" >
+
+        <Button android:background="@null" />
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/Numpad.Button"
+            android:tag="@string/button_0"
+            android:text="@string/button_0" />
+
+        <!-- TODO: add drawable. -->
+
+        <ImageButton
+            android:id="@+id/enter"
+            style="@style/Numpad.Button"
+            android:layout_height="50dp"
+            android:contentDescription="@string/num_enter_desc"
+            android:src="@drawable/ic_enter_icon"
+            android:tag="@string/button_enter" />
+    </TableRow>
+
+</TableLayout>
